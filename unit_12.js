@@ -44,8 +44,9 @@ document.querySelector('.b-3').onclick = f3;
 
 function f4() {
     let a4 = [[1, 2, 3], 'go', [3, 4, 5], [6, [7, 'my']]];
-
-    // return
+    document.querySelector('.out-4').innerHTML = a4[1][0];
+    return a4[1][0];
+    
 }
 
 document.querySelector('.b-4').onclick = f4;
