@@ -98,7 +98,7 @@ function f7() {
     for (let i = 0; i < a7.length; i++) {
         for (let k = 0; k < a7[i].length; k++) {
             if (a7[i][k] % 2 == 0) {
-            out += a7[i][k] + ' '
+            out += a7[i][k] + ' ';
         }
         }
     }
@@ -120,8 +120,14 @@ function f8() {
         [21, 34, 43],
         [44, 56]
     ];
-
-
+    for(let i = 0; i < a8.length; i++){
+        for(let k = 0; k < a8[i].length; k++){
+            if(a8[i][k] % 2 == 1){
+                out += a8[i][k] + ' ';
+            }
+        }
+    }
+    document.querySelector('.out-8').innerHTML = out;
 }
 
 document.querySelector('.b-8').onclick = f8;
