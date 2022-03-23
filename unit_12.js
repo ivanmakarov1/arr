@@ -97,7 +97,9 @@ function f7() {
     ];
     for (let i = 0; i < a7.length; i++) {
         for (let k = 0; k < a7[i].length; k++) {
-            if (a7[i][k] % 2 == 0) out += a7[i][k] + ' ';
+            if (a7[i][k] % 2 == 0) {
+            out += a7[i][k] + ' '
+        }
         }
     }
     document.querySelector('.out-7').innerHTML = out;
