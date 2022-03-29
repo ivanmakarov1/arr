@@ -236,7 +236,7 @@ document.querySelector('.b-12').onclick = f12;
 let a13 = [];
 
 function f13() {
-
+let out = '';
 }
 
 document.querySelector('.b-13').onclick = f13;
