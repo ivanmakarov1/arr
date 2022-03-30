@@ -237,6 +237,9 @@ let a13 = [];
 
 function f13() {
 let out = '';
+for(let i = 0; i < a13.length; i++){
+    
+}
 }
 
 document.querySelector('.b-13').onclick = f13;
