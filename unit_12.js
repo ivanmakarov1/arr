@@ -236,13 +236,9 @@ document.querySelector('.b-12').onclick = f12;
 let a13 = [];
 
 function f13() {
-let out = '';
-for (let i = 0; i <= 7; i++) {
-	out += a13[i] = 1 + ' ';
+
 }
 
-document.querySelector('.out-13').innerHTML = out;
-}
 
 document.querySelector('.b-13').onclick = f13;
 
