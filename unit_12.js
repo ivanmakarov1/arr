@@ -236,12 +236,16 @@ document.querySelector('.b-12').onclick = f12;
 let a13 = [];
 
 function f13() {
-    for(let  i = 1; i <= 8; i++){
-        for(let k = 1; k <= 8; k++){
-            
+    let out = '';
+    let n = 8;
+    for (let i = 0; i < n; i++) {
+        a13[i] = [];
+        for (let j = 0; j < n; j++) {
+            a13[i][j] = (i + j) % 2;
         }
-        
-      }
+        console.log(a13[i]);
+        out += a13[i].join('') + '<br>';
+    }
       document.querySelector('.out-13').innerHTML = out;
 }
 
