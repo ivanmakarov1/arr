@@ -237,7 +237,7 @@ let a13 = [];
 
 function f13() {
     for(let  i = 1; i <= 8; i++){
-        for(let j = 1; j <= 8; j++){
+        for(let k = 1; k <= 8; k++){
             
         }
         
