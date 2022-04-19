@@ -236,7 +236,13 @@ document.querySelector('.b-12').onclick = f12;
 let a13 = [];
 
 function f13() {
-
+    for(let  i = 1; i <= 8; i++){
+        for(let j = 1; j <= 8; j++){
+            
+        }
+        
+      }
+      document.querySelector('.out-13').innerHTML = out;
 }
 
 
