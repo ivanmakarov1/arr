@@ -265,7 +265,13 @@ let a14 = [
 ];
 
 function f14() {
-
+    let out = '';
+    for(let i = 0; i < a14.length; i++){
+        for(let k = 0; k < a14[i].length; k++){
+            out += a14[i].length + ' ';
+        }
+    }
+    document.querySelector('.out-14').innerHTML = out;
 }
 
 document.querySelector('.b-14').onclick = f14;
@@ -283,7 +289,9 @@ let a15 = [
 ];
 
 function f15() {
+    for(let i = 0; i < a15.length; i++){
 
+    }
 }
 
 document.querySelector('.b-15').onclick = f15;
