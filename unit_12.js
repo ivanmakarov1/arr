@@ -322,13 +322,16 @@ console.groupEnd();
 //  Т.е вы руками просто пишите массив такой, чтобы условия выполнялись.
 
 let a17 = [
-
+    [0,5,6],
+    [0,7],
+    [],
+    [0,1,8]
 ];
 
 console.group('Task 17 ================');
-// console.log(a17[3][2] == 8);
-// console.log(a17[1][1] == 7);
-// console.log(a17[0][2] == 6);
+ console.log(a17[3][2] == 8);
+ console.log(a17[1][1] == 7);
+ console.log(a17[0][2] == 6);
 
 console.groupEnd();
 
