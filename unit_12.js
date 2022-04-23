@@ -287,9 +287,13 @@ let a15 = [
 ];
 
 function f15() {
+    let max = 0;
     for(let i = 0; i < a15.length; i++){
-
+        if(a15[i].length > max){
+            max = a15[i].length
+        }
     }
+    document.querySelector('.out-15').innerHTML = max;
 }
 
 document.querySelector('.b-15').onclick = f15;
